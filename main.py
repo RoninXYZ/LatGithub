@@ -1,4 +1,6 @@
 name = "Jack"
 
-print("Hello Python")
-print("Welcome", name)
+def greeting(name):
+    print("Hello", name)
+
+greeting(name)
