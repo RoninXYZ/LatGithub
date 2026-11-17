@@ -6,7 +6,10 @@ def greeting(name):
 def calculate(a, b):
     return a + b
 
+def multiply(a, b):
+    return a * b
+
 greeting(name)
 
-result = calculate(10, 20)
-print("Result:", result)
+print("Addition:", calculate(10, 20))
+print("Multiplication:", multiply(10, 20))
